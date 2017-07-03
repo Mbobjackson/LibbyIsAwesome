@@ -331,6 +331,12 @@ left:0%;
 }
 @media screen and (max-width: 996px){
 	.banner{
+font-size: 90%;
+	}
+
+}
+@media screen and (max-width: 996px){
+	.banner{
 font-size: 75%;
 	}
 
