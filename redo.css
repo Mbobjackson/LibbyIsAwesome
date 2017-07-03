@@ -329,7 +329,7 @@ top:60%;
 left:0%;
 
 }
-@media screen and (max-width: 996px){
+@media screen and (max-height: 650px){
 	.banner{
 font-size: 90%;
 	}
@@ -441,7 +441,12 @@ font-weight:bold;
 	width:65% !important;
 	height: 30% !important;
 	}
-
+	.Images img{
+	height:100%;
+	width:100%;
+	
+	
+	}
 	.Images
 	{
 	width: 100%;
@@ -544,8 +549,8 @@ height:100%;
 	top: 50%;
 	right: 0%;
 	background-color:white;
-	width: = 1em;
-	height: = 2em;
+	width: 1em;
+	height:2em;
 	font-weight: bold;
 	font-family: sans-serif;
 	transform: translateY(-50%);
