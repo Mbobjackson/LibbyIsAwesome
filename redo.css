@@ -346,6 +346,12 @@ font-size: 65%;
 font-size: 50%;
 	}
 
+}
+
+	
+	
+	
+	
 } /* end of banner media query */
 @media screen and (max-width: 889px){
 	.header {
@@ -371,7 +377,7 @@ font-size: 50%;
 
 
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px),{
 	.header {
 	font-size: .5em !important;
 	
@@ -469,6 +475,28 @@ font-weight:bold;
 {
 	opacity: 1;
 }
+
+@media screen and  (max-height: 813px){
+	
+.Carousel{
+width:65% !important;
+height: 30% !important;
+}
+.Images img{
+width: 100% !important;
+
+
+}
+.Images {
+width: 100%;
+height:100%;
+}
+	
+	
+	
+	
+}
+
 .Carousel
 {	
 
