@@ -421,25 +421,54 @@ font-weight:bold;
 
 
 }
-@media screen and (max-width: 900px){
+/*Carousel/*/
+@media screen and (max-width: 900px)
+{
+	.Carousel
+	{
+	width:65% !important;
+	height: 30% !important;
+	}
 
-.Carousel{
-width:65% !important;
-height: 30% !important;
+	.Images
+	{
+	width: 100%;
+	height:100%;
+
+	}
+
 }
-.Images img{
-width: 100% !important;
-
-
+.bubbles
+{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 5px;
 }
-.Images {
-width: 100%;
-height:100%;
+.bubble
+{
+	z-index:1;
+	margin: 2.5px;
+    background-color: black;
+	border-radius: 100000px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+	opacity: .50;
+    transition: opacity 0.1s linear;
+    cursor: pointer;
 }
-
+.bubble:hover
+{
+	opacity: 0.65;
 }
-
-
+.bubble.active
+{
+	opacity: 1;
+}
 .Carousel
 {	
 
@@ -454,15 +483,7 @@ height:100%;
 	
 
 }
-
-.Images
-{
-	
-	position: absolute;
-	display: flex;
-
-}
-.Left:after
+.Left:after /* Left button imageslider */
 {
 	content: "<";
 	position: absolute;
@@ -478,11 +499,11 @@ height:100%;
 	opacity: 0.25;
 	transition: 0.1s linear;
 }
-.Left:hover:after, .Right:hover:after
+.Left:hover:after, .Right:hover:after  /* Left and right button imageslider hover*/
 {
 	opacity: 1;
 }
-.Right:after
+.Right:after  /* Right button imageslider */
 {
 	content: ">";
 	position: absolute;
@@ -499,6 +520,14 @@ height:100%;
 	cursor: pointer;
 
 }
+.Images
+{
+	
+	position: absolute;
+	display: flex;
+
+}
+
 .footer{
 position:relative;
 top:90%;

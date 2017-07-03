@@ -5,11 +5,37 @@ let Carousel = document.getElementsByClassName("Carousel");
 	Right = c.getElementsByClassName("Right")[0],
 	Pictures = c.getElementsByClassName("Images")[0],
 	imgs = Pictures.getElementsByTagName("img"),
-	CurIndex = 0;
-	width = 880;
+	bubblesContainer = c.getElementsByClassName('bubbles')[0],
+	CurIndex = 0,
+	width = 880,
+	bubbles = [];
+	for(let i = 0; i < imgs.length; i++)
+	{
+        let b = document.createElement("span");
+        b.classList.add('bubble');
+        bubblesContainer.appendChild(b);
+        bubbles.push(b);
+        b.addEventListener('click', function ()
+		{
+            CurIndex = i;
+            MoveImage();
+        });
+	}
 	function MoveImage()
 	{
 		Pictures.style.left = -width * CurIndex + "px";
+		
+		bubbles.forEach(function (b, i)
+		{
+            if (i === CurIndex)
+			{
+                b.classList.add('active');
+            }
+			else
+			{
+                b.classList.remove('active');
+            }
+        });
 	}
 	Right.addEventListener("click",function()
 	{
@@ -30,5 +56,5 @@ let Carousel = document.getElementsByClassName("Carousel");
 		}
 		MoveImage();
 	});
-
+	MoveImage();
 });
