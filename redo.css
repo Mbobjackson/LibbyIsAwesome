@@ -457,6 +457,14 @@ font-weight:bold;
 	}
 
 }
+@media screen and (max-width: 900px)
+{
+	.Carousel
+	{
+	width: 50% !important;
+	height: 20% !important;
+	}
+}
 .bubbles
 {
     display: flex;
@@ -492,7 +500,7 @@ font-weight:bold;
 @media screen and  (max-height: 813px){
 	
 .Carousel{
-width:880px% !important;
+width:880px !important;
 height: 30% !important;
 }
 .Images img{
