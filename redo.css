@@ -149,7 +149,6 @@ color:white;
 {
 background-color:rgba(12, 158, 23, .9);
 
-border-radius:1%;
 
 }
 
@@ -305,7 +304,8 @@ margin-top:0;
 
 }
 
-.words{
+.words
+{
 position:absolute;
 top:0%;
 left:14%;
@@ -317,8 +317,6 @@ word-wrap: break-text;
 margin-top:0;
 text-overflow: ellipsis;
 overflow:hidden
-
-
 }
 .BottomBoxes{
 height:50%;
@@ -593,6 +591,7 @@ height: 8%;
 border:0;
 font-size: .3em;
 margin:0;
+cursor: pointer;
 }
 .morebutton p{
 position:absolute;
