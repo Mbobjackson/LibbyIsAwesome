@@ -224,8 +224,8 @@ text-align:left;
 text-indent: 5%;
 padding-left: 2.5%;
 padding-right:2.5%;
-text-overflow: ellipsis;
-overflow:hidden
+
+
 }
 .header{
 background-color:  rgb(18, 168, 224);
@@ -315,8 +315,8 @@ font-size: 27%;
 line-height: 200%;
 word-wrap: break-text;
 margin-top:0;
-text-overflow: ellipsis;
-overflow:hidden
+overflow:hidden;
+
 }
 .BottomBoxes{
 height:50%;
@@ -325,6 +325,15 @@ position:absolute;
 top:60%;
 left:0%;
 
+}
+
+@media screen and (max-height: 500px){
+	.banner{
+font-size: 55%;
+	}
+	.menuitems{
+	font-size: 55% !important;
+	}
 }
 @media screen and (max-height: 650px){
 	.banner{
@@ -586,12 +595,13 @@ font-weight: bold;
 width:5%;
 position:absolute;
 top:90%;
-left: 19%;
+left: 14%;
 height: 8%;
 border:0;
 font-size: .3em;
 margin:0;
 cursor: pointer;
+padding-left: 2.5%;
 }
 .morebutton p{
 position:absolute;
@@ -601,11 +611,12 @@ transform:translate(-50%, -50%);
 padding:0;
 margin:0;
 color:white;
+
 }
 
 #words1content {
 height:100%;
-
+overflow:auto;
 
 }
 

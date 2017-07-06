@@ -2,6 +2,7 @@ html{
 height:100%;
 width:100%;
 font-size:5em;
+font-family: 'Roboto', sans-serif;
 
 }
 html body {
@@ -13,29 +14,52 @@ margin:0;
 .listings{
 height: 50%;
 width:50%;
-position:relative;
-left:49%;
-top:50%;
+position:absolute;
+right:2%;
+top:35%;
 background-color:#white;
+float:left;
+
+
 }
+
 .vehicle{
 height:50%;
 position:relative;
-
 background-color:#e6e8ed;
 border-style:solid;
 
 }
 .vehicle img{
-height: 90%;
-width: 38%;
+height: 50%;
+width: 35%;
 position:absolute;
-left: 1%;
+left: 5%;
 top:5%;
 border-style:solid;
 border-color: #c9ccd3;
 border-width:1%;
 }
+.price{
+height: 50%;
+width: 35%;
+position:absolute;
+left: 5%;
+top:50%;
+color:#2656a5;
+}
+.price p{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+font-size: .7em;
+margin:0;
+
+
+
+}
+
 .vehicle ul{
 height:80;
 position:absolute;
@@ -60,4 +84,27 @@ height:15%;
 margin:0;
 
 }
+.search{
+height: 50%;
+width:30%;
+position:absolute;
+left:5%; /*center is 10% */
+top:33%;
+background-color:#e6e8ed;
+float:left;
 
+}
+.searchbar input{
+width:90%;
+position:absolute;
+margin-left: 5%;
+margin-right:5%;
+top: 5%;
+
+}
+.menubar{
+background-color:blue;
+width:100%;
+height:30%;
+float:left;
+}
