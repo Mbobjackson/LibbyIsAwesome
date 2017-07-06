@@ -108,3 +108,12 @@ width:100%;
 height:30%;
 float:left;
 }
+.NextButton{
+user-select:none;
+
+
+}
+.BackButton{
+user-select:none;
+
+}
