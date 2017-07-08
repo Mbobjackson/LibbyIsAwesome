@@ -1,30 +1,37 @@
 <!Doctype html>
 <html>
 <head>
+
 	<link rel="stylesheet" type="text/css" href="..\CSS\pdf.css" />
 
 
 </head>
-<body>
-<div id = "CarsMiniButton" class = "SelButtons">CarsMini</div>
-<div id = "TrucksButton" class = "SelButtons">Trucks</div>
-<div id = "CrossSuvButton" class = "SelButtons">CrossSuv</div>
-<div id = "HybridFcvButton" class = "SelButtons">HybridFcv</div>
-<div id = "OtherButton" class = "SelButtons">Other</div>
+			
 
+<body>
+
+
+<div class="buttons">
+<div id = "CarsMiniButton" class = "SelButtons"><p>Cars & Minivans</p></div>
+<div id = "TrucksButton" class = "SelButtons"><p>Trucks</p></div>
+<div id = "CrossSuvButton" class = "SelButtons"><p>Crossovers & Suv</p></div>
+<div id = "HybridFcvButton" class = "SelButtons"><p>Hybrids & Fcv</p></div>
+<div id = "OtherButton" class = "SelButtons"><p>Other</p></div>
+</div> <!--- end of buttons div --->
 <div id = "CarsMini" class = "Pages" style = ""> <!-- Start of content -->
-	<div class ="lists">
-		<div class="Avalon">
-		<h2> Avalon </h2>
-			<ul>
-				<li>2017 PDF </li>
+	<div class="toprow">
+		<div class="Avalon" id="cars">
+		<img src="../Images/Avalon.jpg">
+		<h2>Avalon</h2> 
+			<ul><li>2017 PDF </li>
 				<li>2018 PDF</li>
 				<li>Accessory PDF</li>
 			</ul>
 		</div> <!--- end of Avalon div --->
 		
 		
-		<div class="Camry">
+		<div class="Camry" id="cars">
+		<img src="../Images/Camry.jpg">
 		<h2> Camry</h2>
 			<ul>
 				<li>2017 PDF </li>
@@ -33,7 +40,8 @@
 			</ul>
 		</div> <!--- end of Camry --->
 		
-		<div class="Corolla">
+		<div class="Corolla" id="cars">
+		<img src="../Images/Corolla.jpg">
 		<h2> Corolla </h2>
 			<ul>
 				<li>2017 PDF </li>
@@ -41,7 +49,8 @@
 			</ul>
 		</div> <!--- end of Corolla --->
 		
-		<div class="CorollaiM">
+		<div class="CorollaiM" id="cars">
+		<img src="../Images/CorollaiM.png">
 		<h2> Corolla iM </h2>
 			<ul>
 				<li>2017 PDF </li>
@@ -49,7 +58,10 @@
 				<li>Accessory PDF</li>
 			</ul>
 		</div> <!--- end of Corolla iM --->
-		<div class="Sienna">
+		</div> <!--- end of toprow div -->
+		<div class="bottomrow">
+		<div class="Sienna" id="cars">
+		<img src="../Images/Sienna.jpg">
 		<h2> Sienna </h2>
 			<ul>
 				<li>2017 PDF </li>
@@ -58,14 +70,16 @@
 			</ul>
 		</div> <!--- end of Sienna--->
 		
-		<div class="Yaris">
+		<div class="Yaris" id="cars">
+		<img src="../Images/Yaris.png">
 		<h2> Yaris </h2>
 			<ul>
 				<li><a   target="_blank" href="https://www.toyota.com/content/ebrochure/2018/avalon_ebrochure.pdf">2017 PDF </a></li>
 				<li>2018 PDF</li>
 			</ul>
 		</div> <!--- end of Yaris --->
-		<div class="YarisiA">
+		<div class="YarisiA" id="cars">
+		<img src="../Images/yarisia.png">
 		<h2> Yaris iA</h2>
 			<ul>
 				<li>2017 PDF </li>
@@ -73,22 +87,104 @@
 				<li>Accessory PDF</li>
 			</ul>
 		</div> <!--- end of Yaris iA--->
-		<div class="eightysix">
+		<div class="eightysix" id="cars">
+		<img src="../Images/86.png">
 		<h2> 86 </h2>
 			<ul>
 				<li>2017 PDF </li>
 				<li>2018 PDF</li>
 				<li>Accessory PDF</li>
 			</ul>
-		</div> <!--- end of 86 --->
-	</div> <!--- end of lists --->
-</div> <!-- End Of content -->
-<div id = "Trucks" class = "Pages" style = "display:none"> <!-- Start of content -->
-<p>Content for trucks go here!</p>
-</div><!-- End of content -->
+		</div><!--- end of 86 --->
+		</div> <!--- end of bottomrow div --->
 
+</div> <!-- End Of content CarsMini -->
+<div id = "Trucks" class = "Pages" style = "display:none"> <!-- Start of content -->
+<<div class="toprow">
+		<div class="Tundra" id= "cars">
+		<img src="../Images/Tundra.jpg">
+		<h2>Tundra</h2> 
+			<ul><li>2017 PDF </li>
+				
+				<li>Accessory PDF</li>
+			</ul>
+		</div> <!--- end of Avalon div --->
+		
+		
+		<div class="Tacoma id= "cars"">
+		<img src="../Images/Camry.jpg">
+		<h2> Tacoma</h2>
+			<ul>
+				<li>2017 PDF </li>
+				<li>Accessory PDF</li>
+			</ul>
+	</div>
+</div><!-- End of content -->
+</div>
 <div id = "CrossSuv" class = "Pages" style = "display:none"> <!-- Start of content -->
-<p>Content for Cross and suv's go here!</p>
+	<div class="toprow">
+		<div class="C-HR" id="cars">
+		<img src="../Images/c-hr.png">
+		<h2>C-HR</h2> 
+			<ul><li>2017 PDF </li>
+				
+				<li>Accessory PDF</li>
+			</ul>
+		</div> <!--- end of Avalon div --->
+		
+		
+		<div class="4Runner" id="cars">
+		<img src="../Images/4Runner.jpg">
+		<h2> 4Runner</h2>
+			<ul>
+				<li>2017 PDF </li>
+				
+				<li>Accessory PDF</li>
+			</ul>
+		</div> <!--- end of Camry --->
+		
+		<div class="Highlander" id="cars">
+		<img src="../Images/highlander.png">
+		<h2> High Lander</h2>
+			<ul>
+				<li>2017 PDF </li>
+				<li>Accessory PDF</li>
+			</ul>
+		</div> <!--- end of Corolla --->
+		
+		<div class="LandCruiser" id="cars">
+		<img src="../Images/land-cruiser.jpg">
+		<h2> LandCrusier</h2>
+			<ul>
+				<li>2017 PDF </li>
+				<li>2018 PDF</li>
+				<li>Accessory PDF</li>
+			</ul>
+		</div> <!--- end of Corolla iM --->
+		</div> <!--- end of toprow div -->
+		<div class="bottomrow">
+		<div class="RAV4" id="cars">
+		<img src="../Images/rav4.png">
+		<h2> RAV4 </h2>
+			<ul>
+				<li>2017 PDF </li>
+				<li>2018 PDF</li>
+				<li>Accessory PDF</li>
+			</ul>
+		</div> <!--- end of Sienna--->
+		
+		<div class="Sequoia" id="cars">
+		<img src="../Images/sequoia.jpg">
+		<h2> Sequoia </h2>
+			<ul>
+				<li><a   target="_blank" href="https://www.toyota.com/content/ebrochure/2018/avalon_ebrochure.pdf">2017 PDF </a></li>
+				<li>2018 PDF</li>
+			</ul>
+		</div> <!--- end of Yaris --->
+		
+		</div> <!--- end of bottomrow div --->
+
+
 </div><!-- End of content -->
 
 <div id = "HybridsFcv" class = "Pages" style = "display:none"> <!-- Start of content -->
