@@ -12,13 +12,15 @@ margin:0;
 
 }
 .listings{
-height: 170%;
+
 width:60%;
 position:absolute;
 right:2%;
 top:35%;
-background-color:#white;
+
 float:left;
+padding-right:1.5%;
+padding-left:1.5%;
 }
 
 .vehicle{
@@ -30,6 +32,7 @@ border-style:solid;
 border-color: rgb(204, 204, 204);
 margin-bottom:5%;
 margin-top:5%;
+padding-bottom:50%;
 }
 .vehicle img{
 height: 50%;
@@ -125,4 +128,17 @@ user-select:none;
 	
 	
 	
+}
+#nextpage{
+	float:left;
+	font-size: .3em;
+	text-decoration:underline;
+	position:absolute;
+	right: 2%;
+	top:35%;
+	width: 60%;
+	cursor: pointer;
+	user-select:none;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
 }
