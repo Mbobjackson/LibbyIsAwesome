@@ -32,14 +32,14 @@ border-style:solid;
 border-color: rgb(204, 204, 204);
 margin-bottom:5%;
 margin-top:5%;
-padding-bottom:75%;
+padding-bottom:40%;
 
 }
 .vehicle img{
-height: 40%;
-width: 70%;
+height: 35%;
+width: 40%;
 position:absolute;
-left: 15%;
+left: 30%;
 top:15%;
 border-style:solid;
 border-color: #c9ccd3;
@@ -51,7 +51,7 @@ height: 15%;
 width: 50%;
 position:absolute;
 left: 25%;
-bottom:5%;
+bottom:0%;
 color:red;
 
 }
@@ -71,7 +71,7 @@ margin:0;
 
 height:80;
 position:absolute;
-top: 60%;
+top: 50%;
 left: 5%;
 margin-top: 5%;
 padding:0;
