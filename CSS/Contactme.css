@@ -1,0 +1,97 @@
+.contactmap{
+	height: 50%;
+	width:100%;
+	position:relative;
+	top:-7.4%;
+}
+
+.contactmap img{
+	width:100%;
+	position:absolute;
+	height:100%;
+	
+}
+
+.number{
+	background-color:rgba(256, 256 ,256, .5);
+	position:relative;
+	top:80%;
+	width: 100%;
+	
+}
+.number p{
+	margin:0;
+	width: 42%;
+	position:relative;
+	transform:translate (-50%, -50%);
+	left:35%;
+	
+}
+.bottompage{
+	height: 40%;
+	
+	
+}
+.Forms{
+	width: 40%;
+	position:absolute;
+	left: 50%;
+	display:flex-column;
+	height:100%;
+	Transform:translateX(-50%);
+	
+}
+#confirstname{
+	
+	width:45%;
+	
+}
+#conlastname{
+	
+	width:45%;
+	
+}
+#messagebox{
+	height:35%;
+	width:100%;
+	
+}
+#conemail{
+position:absolute;
+bottom:27%;
+left: 0%;
+}
+#connumber{
+position:absolute;
+bottom: 27%;
+right: 0%;
+}
+.Forms p{
+	font-size: .3em;
+	margin:0;
+	color:white;
+	left:20%;
+	width:15%;
+	height: 100%;
+	top:0%;
+}
+.conname{
+	width: 20%;
+	height: 5%;
+	background-color: rgb(18, 168, 224);
+	position:absolute;
+	top:0%;
+	left:0%;
+
+}
+.conname p{
+	position:absolute;
+	transform:translate (-50%, -50%);
+	left: 25%;
+	width: 50%;
+	color:white;
+	font-size: .3em;
+	height:25%;
+	top:25%;
+
+}

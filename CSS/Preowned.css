@@ -12,17 +12,19 @@ margin:0;
 
 }
 .listings{
-height: 170%;
+
 width:60%;
 position:absolute;
 right:2%;
 top:35%;
-background-color:#white;
+
 float:left;
+padding-right:1.5%;
+padding-left:1.5%;
 }
 
 .vehicle{
-height:40%;
+
 
 position:relative;
 background-color:rgba(237, 237, 237, .2);
@@ -30,57 +32,74 @@ border-style:solid;
 border-color: rgb(204, 204, 204);
 margin-bottom:5%;
 margin-top:5%;
+padding-bottom:40%;
+
 }
 .vehicle img{
-height: 50%;
-width: 35%;
+height: 35%;
+width: 40%;
 position:absolute;
-left: 5%;
-top:5%;
+left: 30%;
+top:15%;
 border-style:solid;
 border-color: #c9ccd3;
 border-width:1%;
 }
 .price{
-height: 50%;
-width: 35%;
+	
+height: 15%;
+width: 50%;
 position:absolute;
-left: 5%;
-top:50%;
-color:#2656a5;
+left: 25%;
+bottom:0%;
+color:red;
+
 }
 .price p{
 position:absolute;
 top:50%;
-left:50%;
-transform:translate(-50%, -50%);
-font-size: .7em;
+left:0%;
+transform:translateY(-50%);
+font-size: .8em;
 margin:0;
 
 
 
 }
 
-.vehicle ul{
+.vhtable{
+
 height:80;
 position:absolute;
-top:15%;
-right: 15%;
-margin:0;
+top: 50%;
+left: 5%;
+margin-top: 5%;
 padding:0;
-font-size:17.53%;
+font-size:25%;
 list-style:none;
+}
+#stock{
+position:absolute;
+left: 28%;
+	
+	
+}
+#info{
+	color: rgba(0, 0, 0, .7);
+	
+	
 }
 
 .vehicle h2{
 color:#2656a5;
-font-size: 30%;
-display: inline-block;
+font-size: 50%;
+width: 60%;
 position:absolute;
-right:15%;
-top:0%;
-height:15%;
+left: 30%;
+top:2.5%;
+height:5%;
 margin:0;
+
 }
 .page
 {
@@ -119,4 +138,23 @@ user-select:none;
 .BackButton{
 user-select:none;
 
+}
+.Carsmini{
+	background-color:black;
+	
+	
+	
+}
+#nextpage{
+	float:left;
+	font-size: .3em;
+	text-decoration:underline;
+	position:absolute;
+	right: 2%;
+	top:35%;
+	width: 60%;
+	cursor: pointer;
+	user-select:none;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
 }

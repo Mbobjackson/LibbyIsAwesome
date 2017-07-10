@@ -580,11 +580,73 @@ height:100%;
 position:relative;
 top:90%;
 width:100%;
-height:20%;
-background-color:black;
+height:35%;
+background-color: rgba(0, 0, 0, .7);
 
 
 
+}
+.footer2{
+	
+	position:absolute;
+	top: 75%;
+	width:100%;
+	background-color: rgba(0, 0, 0, .5);
+	height:25%;
+}
+.twitter{
+	position:absolute;
+	top:0%;
+	left:15%;
+
+
+	float:right;
+	color:white;
+	font-size: .3em;
+	width: 12%;
+	height: 50%;
+}
+.twitter p{
+	position:absolute;
+	top:27%;
+	left: 40%;
+	transform:translateY(-50%);
+	margin:0;
+	
+	
+}
+.facebook{
+	position:absolute;
+	top:0%;
+	left:2%;
+	float:right;
+	color:white;
+	font-size: .3em;
+	width: 12%;
+	height: 50%;
+}
+.facebook p{
+	position:absolute;
+	top:27%;
+	left: 40%;
+	transform:translateY(-50%);
+	margin:0;
+	
+	
+}
+.googlemaps{
+	position:absolute;
+	width: 30%;
+	top:30%;
+	left: 3%;
+	top:22%;
+}
+.googlemaps img{
+	
+	width: 67%;
+	height: 30%;
+	left: 8%;
+	
 }
 .morebutton{
 
@@ -619,5 +681,86 @@ height:100%;
 overflow:auto;
 
 }
-
-
+.sitemap{
+	font-size: .35em;
+	position:absolute;
+	left: 30%;
+	color:rgba(256, 256, 256, .5);
+	
+}
+.sitemap td{
+	margin-right: 5%;
+	
+	
+}
+#tablehead{
+color: rgb(256, 256, 256);
+	
+	
+}
+.emailform{
+	font-size:.35em;
+	display:inline-block;
+	position:absolute;
+	right: 0%;
+	width: 35%;
+	height: 75%;
+}
+.emailform p{
+	margin:0;
+	
+}
+#Firstname{
+	position:absolute;
+	left: 5%;
+	width: 35%;
+	top:5%;
+	
+}
+#Lastname{
+	position:absolute;
+	right: 22%;
+	width: 35%;
+	top:5%;
+	
+}
+#Email{
+	position:absolute;
+	top: 20%;
+	left:5%;
+	width:73%;
+	
+}
+#Nameinput{
+	width: 100%;
+	color: rgba(0, 0, 0, .5);
+}
+#Emailinput{
+	width: 100%;
+	color: rgba(0, 0, 0, .5);
+	
+}
+.submit{
+	width: 15%;
+	height: 15%;
+	background-color: #e51d49;
+	position:absolute;
+	
+	top:40%;
+	right:22%;
+	border-radius: 10%;
+}
+.submit p{
+	position:absolute;
+	transform:translate (-50%, -50%);
+	left: 12.5%;
+	top: 25%;
+	color:white;
+	font-size: .7em;
+}
+.footer2 p{
+	
+	font-size: .5em;
+	color: rgba(0, 0, 0, .5);
+	
+}
