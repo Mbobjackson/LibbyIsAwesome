@@ -28,18 +28,48 @@
 	
 }
 .bottompage{
-	height: 40%;
-	
+	height: 80%;
+	position:relative;
 	
 }
 .Forms{
-	width: 40%;
+	width: 60%;
 	position:absolute;
 	left: 50%;
-	display:flex-column;
-	height:100%;
+	background-color: rgb(237, 237, 237);
+	padding-left:2.5%;
+	padding-right:2.5%;
+	height:130%;
 	Transform:translateX(-50%);
 	
+}
+.Contactemail{
+position:absolute;
+right: 2.5%;
+height: 100%;
+width: 40%;
+
+}
+.emailheader{
+	width: 100%;
+	height: 5%;
+	background-color: rgb(18, 168, 224);
+	position:absolute;
+	top:0%;
+	left:0%;
+
+	
+}
+.emailheader p{
+	position:absolute;
+	transform:translate (-50%, -50%);
+	left: 35%;
+	width:50%;
+	color:white;
+	font-size: .3em;
+	height:25%;
+	top:25%;
+	margin:0;
 }
 #confirstname{
 	
@@ -47,51 +77,94 @@
 	
 }
 #conlastname{
-	
+
 	width:45%;
 	
 }
 #messagebox{
-	height:35%;
+	height:50%;
 	width:100%;
 	
 }
 #conemail{
 position:absolute;
-bottom:27%;
-left: 0%;
+top:65%;
+width:20%;
+
 }
 #connumber{
 position:absolute;
-bottom: 27%;
-right: 0%;
+top: 65%;
+left: 26%;
+width:20%;
 }
+
 .Forms p{
-	font-size: .3em;
+
 	margin:0;
-	color:white;
-	left:20%;
-	width:15%;
-	height: 100%;
-	top:0%;
+
 }
-.conname{
-	width: 20%;
+.conheader{
+
+	width: 67%;
 	height: 5%;
 	background-color: rgb(18, 168, 224);
 	position:absolute;
-	top:0%;
-	left:0%;
-
+	top:64%;
+	left:50%;
+	Transform:translateX(-50%);
+	
 }
-.conname p{
+.conheader p{
 	position:absolute;
 	transform:translate (-50%, -50%);
-	left: 25%;
-	width: 50%;
+	left: 35%;
+	width:50%;
 	color:white;
-	font-size: .3em;
+	font-size: .5em;
 	height:25%;
-	top:25%;
+	top:%;
+	margin:0;
+}
+.Forms li{
+	font-size: .3em;
+	color: rgba(0, 0, 0, .5);
+	margin-top: 8%;
+	
+}
+.Forms li p{
+background-color:rgb(18, 168, 224);
+color:white;
+padding: 2.5%;
+width: 25%;
+left: 2%;
+margin-right:0;
+}
+
+
+.Forms ul{
+list-style:none;
+padding:0;
+position:absolute;
+bottom:0%;
+right: 15%;
+margin-top: 0;
+margin-bottom:1%;
+
+}
+.contactcat{
+width:20%;
+
+}
+.ResponseHeader p{
+	
+	position:absolute;
+	top: 60%;
+	font-size: .3em;
+	background-color: rgb(18, 168, 224);
+	color:white;
+	padding:.5%;
+	padding-left:1%;
+	padding-right:1%;
 
 }
