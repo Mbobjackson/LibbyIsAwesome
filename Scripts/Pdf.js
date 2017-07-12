@@ -3,12 +3,16 @@ TrucksButton = document.getElementById("TrucksButton");
 CrossSuvButton = document.getElementById("CrossSuvButton");
 HybridFcvButton = document.getElementById("HybridsFcvButton");
 OtherButton = document.getElementById("OtherButton");
-//TODO recreate hoverclass in js
+
 //Trouble comparing id's so both data types are converted to strings and then compared.
 
 Pages = Array.from(document.getElementsByClassName("Pages"));
 Buttons = Array.from(document.getElementsByClassName("SelButtons"));
 var CurButton = CarsMiniButton;
+Buttons.forEach(function(e)
+{
+	e.style.transition = "all 0.5s";
+});
 function SwitchButton(Button)
 {
 	var Button = Button.concat("Button");
@@ -63,6 +67,7 @@ function OnMouseHover(Button)
 		Button.style.color = "rgba(0,0,0,1)";
 		Button.style.cursor = "pointer";
 		Button.onmouseout = function(){OnMouseLeave(this)};
+		
 
 }
 

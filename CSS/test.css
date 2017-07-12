@@ -1,0 +1,180 @@
+html{
+	height:100%;
+	width:100%;
+	
+}
+
+html body{
+font-family: Arial,Roboto;
+height:100%;
+width:100%;
+font-size:4em;
+
+
+}
+#Title{
+font-size:1.2em;
+
+color: #ebebe0;
+margin-bottom:0;
+
+font-style: italic;
+
+}
+#Subtitle{
+font-size: .7em;	
+	
+	
+}
+#paddingremove{
+padding:0;	
+	
+	
+}
+#location{
+padding:0;
+color:white;
+font-size:.5em;
+	
+}
+#headerban{
+	background-color: rgb(18, 168, 224);
+	font-family: 'Lato', sans-serif;
+}
+#navbarbox{
+	box-shadow:200px;	
+}
+.navbar.navbar-default {
+ 
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+	 border: none;
+	
+}
+#margin{
+margin-left:5%;
+margin-top: 1%;
+color:white;
+}
+#widthspan{
+	width:100%;
+}
+#whitetext{
+	color: rgba(256, 256, 256, .6);
+	font-weight:bold;
+}
+#whitetext:hover{
+	color: rgba(256, 256, 256, 1);
+	
+	
+}
+.navbar.navbar-default .navbar-collapse {
+  border: none;
+  box-shadow: none;
+}
+.Carousel{
+		
+	
+	height: 290px;
+	
+	user-select: none;
+	overflow:hidden;
+	
+	
+	
+}
+.Images{
+	display:flex;
+	position:relative;
+
+
+	
+}
+.Images img{
+		width:100%;
+	height:100%;
+	
+	
+}
+.Left:after /* Left button imageslider */
+{
+	content: "<";
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	background-color:white;
+	font-weight: bold;
+	font-family: sans-serif;
+	transform: translateY(-50%);
+	cursor: pointer;
+	opacity: 0.25;
+	transition: 0.1s linear;
+}
+.Left:hover:after, .Right:hover:after  /* Left and right button imageslider hover*/
+{
+	opacity: 1;
+}
+.Right:after  /* Right button imageslider */
+{
+	content: ">";
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	background-color:white;
+	font-weight: bold;
+	font-family: sans-serif;
+	transform: translateY(-50%);
+	cursor: pointer;
+	opacity: 0.25;
+	transition: 0.1s linear;
+}
+.row-center {
+  text-align:center;
+}
+
+.col-center {
+  display:inline-block;
+  float:none;
+}
+#BH{
+	
+	
+	position:absolute;
+	width: 50%;
+	transform:translateX(-50%);
+	left: 50%;
+	background-color:rgb(18, 168, 224);
+	color:white;
+	padding-top:2.5%;
+	padding-bottom:2.5%;
+	font-weight:bold;
+}
+@media screen and (max-width: 889px){
+	#BH{
+	position:static;
+	width: 100%;
+	transform:translateX(-0%);
+	left:0;
+	background-color:rgb(18, 168, 224);
+	color:white;
+	padding-top:2.5%;
+	padding-bottom:2.5%;
+	font-weight:bold;
+		
+		
+	}
+	
+	
+	
+	
+}
+#overflow{
+	overflow:auto;
+	font-size: .5em;
+	line-height: 200%;
+	
+	height:500px;
+	margin-top: 15%;
+	text-align:left;
+}

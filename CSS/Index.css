@@ -14,6 +14,7 @@ height:100%;
 width:100%;
 font-size:4em;
 }
+
 .banner{
 background-color:  rgb(18, 168, 224);
 height:10%;
@@ -227,7 +228,7 @@ padding-right:2.5%;
 
 
 }
-.header{
+.Origami{
 background-color:  rgb(18, 168, 224);
 height:15%;
 margin-top:0;
@@ -235,7 +236,7 @@ width:100%;
 margin-bottom:2.5%;
 }
 
-.header p{
+.Origami p{
 margin:0;
 padding:0;
 transform:translateY(-50%);
@@ -326,7 +327,7 @@ top:60%;
 left:0%;
 
 }
-
+/*
 @media screen and (max-height: 500px){
 	.banner{
 font-size: 55%;
@@ -366,7 +367,7 @@ font-size: 50%;
 	
 	
 	
-} /* end of banner media query */
+} end of banner media query 
 @media screen and (max-width: 889px){
 	.header {
 	font-size: .8em !important;
@@ -413,8 +414,7 @@ font-size: 50%;
 	font-size: 65%;
 	}
 }
-
-
+*/
 .header2{
 
 
@@ -441,7 +441,8 @@ font-weight:bold;
 
 
 }
-/*Carousel/*/
+/*Carousel*/
+/*
 @media screen and (max-width: 900px)
 {
 	.Carousel
@@ -519,8 +520,8 @@ width: 100% !important;
 width: 100%;
 height:100%;
 }
-	} /* end of query */
-
+	} /* end of query 
+*/
 
 .Carousel
 {	
@@ -531,7 +532,7 @@ height:100%;
 	left: 50%;
 	user-select: none;
 	top:2.5%;
-	overflow: hidden;
+	
 	transform:translateX(-50%);
 	
 
