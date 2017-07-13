@@ -92,7 +92,7 @@ color:white;
 	
 }
 .Images img{
-		width:100%;
+	width:100%;
 	height:100%;
 	
 	
@@ -165,7 +165,24 @@ color:white;
 		
 	}
 	
+
 	
+	
+}
+@media screen and (max-width: 889px){
+.footer{
+	
+	
+display:none;
+		
+		
+	}
+}
+
+#BV{
+	
+	width:80%;
+	margin-top: 20%;
 	
 	
 }
@@ -173,8 +190,78 @@ color:white;
 	overflow:auto;
 	font-size: .5em;
 	line-height: 200%;
-	
-	height:500px;
-	margin-top: 15%;
+	height: 500px;
+	margin-top: 20%;
 	text-align:left;
+	margin-left: 13%;
+}
+.footer{
+	
+	background-color: rgba(0, 0, 0, .7);
+	height: 250px;
+	margin-top: 5%;
+}
+.sitemap td{
+	margin-right: 5%;
+	
+	
+}
+#footertext{
+	font-size: .5em;
+	color:white;
+	float:left;
+	margin-top: 5%;
+	
+}
+#svg{
+	
+	float:left;
+}
+.googlemaps img{
+	
+	height: 150px;
+	width:75%;
+	position:absolute;
+	left:0;
+	top: 80%;
+}
+.sitemap{
+	font-size:.6em;
+	border-collapse: separate;
+    border-spacing: 10px 5px;
+	color: rgba(256, 256, 256, .5)
+	}
+	
+#Name{
+	width: 45%;
+	height: 30px;
+}
+#E-mail{
+	
+	width:92%;
+	height:30px;
+
+}
+.Emailbox{
+	height:100%;
+	width:100%;
+	
+	margin-top: 5%;
+}
+	
+#Submit{
+margin-left:62%;
+width:30%;
+background-color:#e51d49;
+margin-top:0%;
+border:none;
+color:white;
+border-radius:10px;
+font-size: .7em;
+}
+#tablehead{
+	color:white;
+
+	
+	
 }
