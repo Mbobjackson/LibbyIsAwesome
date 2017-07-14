@@ -1,0 +1,26 @@
+.search{
+	
+	background-color: pink;
+	color: gray;
+	text-align:center;
+	height: 550px;
+	
+}
+.vehicle-info{
+	
+	font-size:.5em;
+
+	
+	
+}
+.vehicle-info tr td{
+	padding:10px;
+	
+	
+	
+}
+#panel{
+	 box-shadow:3px 3px 6px 6px  #888888;
+	
+	
+}

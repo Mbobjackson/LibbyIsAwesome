@@ -1,0 +1,48 @@
+#contacthead{
+	
+	text-align:center;
+	background-color:  rgb(18, 168, 224);
+	color:white;
+	font-size: 1em;
+	margin-top:2%;
+	
+	
+	
+}
+#confirstname{
+	font-size: .5em;
+	width:45%;
+	
+	height: 30px;
+}
+#conlastname{
+	font-size: .5em;
+	width:45%;
+	height:30px;
+	
+}
+#messagebox{
+	font-size: .5em;
+	width:100%;
+	height: 500px;
+	
+	
+}
+#conemail{
+	font-size: .5em;
+	width: 45%;
+	height: 30px;
+	
+}
+#connumber{
+	font-size: .5em;
+	width: 45%;
+	height: 30px;
+	
+}
+#formbackground{
+	background-color: rgb(237, 237, 237);
+	margin-top: .5%;
+	
+	
+}
