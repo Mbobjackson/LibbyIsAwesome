@@ -67,19 +67,21 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
+	<div id = "map"></div>
+	<script>function initMap()
+	{
+        var settings = {zoom:18,center:{lat: 30.656159, lng: -88.117137}};
+		var map = new google.maps.Map(document.getElementById("map"),settings);
+		var LocationMaker = new google.maps.Marker({position:{lat: 30.656159, lng: -88.117137},map:map});
+	}
+	</script>
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIonDSgWlobkOMsgf69IsJlAfnmlnl6EY&callback=initMap">
+    </script>
 	<div class="container-fluid">
-		<div class="row">
-			<div class=" col-md-12">
-				<img src = "../Images/Map2.png">
-			
-			</div>
-		
-		
-		</div><!--- end of row--->
 		
 		<div class="row">
-			<div class="col-md-9 col-md-offset-2" id="contacthead">
+			<div class="col-md-8 col-md-offset-2" id="contacthead">
 				
 				<p> Send me a message</p>
 			</div>
@@ -88,7 +90,7 @@
 					<input id="confirstname"placeholder="First Name"></input>
 			<input id="conlastname" placeholder="Last Name"></input>
 			
-			<textarea id="messagebox" type="text" Placeholder="Message"></textarea>
+			<textarea id="messagebox" type="text" placeholder="Message"></textarea>
 						<input id="conemail"placeholder="Email*"></input>
 			<input id="connumber"placeholder="Phone Number*"></input>
 				

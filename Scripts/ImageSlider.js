@@ -7,7 +7,8 @@ let Carousel = document.getElementsByClassName("Carousel");
 	imgs = Pictures.getElementsByTagName("img"),
 	bubblesContainer = c.getElementsByClassName('bubbles')[0],
 	CurIndex = 0,
-	width = 880,
+	width = 80,
+	unit = "vw",
 	bubbles = [];
 	for(let i = 0; i < imgs.length; i++)
 	{
@@ -23,8 +24,7 @@ let Carousel = document.getElementsByClassName("Carousel");
 	}
 	function MoveImage()
 	{
-		Pictures.style.left = -width * CurIndex + "px";
-		
+		Pictures.style.left = -width * CurIndex + unit;
 		bubbles.forEach(function (b, i)
 		{
             if (i === CurIndex)

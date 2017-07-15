@@ -23,7 +23,7 @@ font-style: italic;
 }
 #Subtitle{
 font-size: .7em;	
-	
+color: rgb(3,80,160);
 	
 }
 #paddingremove{
@@ -75,27 +75,25 @@ color:white;
 }
 .Carousel{
 		
-	
-	height: 290px;
-	
-	user-select: none;
+	left:-11.5%;
+	width: 80vw;
+	height: 20vw;
 	overflow:hidden;
-	
+    position: relative;
+
 	
 	
 }
 .Images{
 	display:flex;
-	position:relative;
-
+	position: absolute;
 
 	
 }
-.Images img{
-	width:100%;
-	height:100%;
-	
-	
+.Images img
+{
+	width: 80vw;
+	height: 20vw;
 }
 .Left:after /* Left button imageslider */
 {

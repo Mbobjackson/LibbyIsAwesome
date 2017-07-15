@@ -526,11 +526,9 @@ height:100%;
 .Carousel
 {	
 
-	width: 880px;
-	height: 290px;
+	overflow: hidden;
 	position: relative;
 	left: 50%;
-	user-select: none;
 	top:2.5%;
 	
 	transform:translateX(-50%);
@@ -571,7 +569,7 @@ height:100%;
 }
 .Images
 {
-	
+	width:100%;
 	position: absolute;
 	display: flex;
 
